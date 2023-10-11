@@ -1,0 +1,187 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+width: 574px;
+height: 82px;
+top: 145px;
+left: 433px;
+font-family: Sanchez;
+font-size: 64px;
+font-weight: 400;
+line-height: 82px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+margin-bottom: 0px;
+}
+
+p{
+width: 538px;
+height: 51px;
+top: 150px;
+left: 451px;
+font-family: Sanchez;
+font-size: 40px;
+font-weight: 400;
+line-height: 51px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+margin-left: 20px;
+}
+
+
+#easy {
+width: 300px;
+height: 70px;
+top: 415px;
+left: 560px;
+border-radius: 12px;
+background-color: #22C55E;
+}
+
+#medium {
+width: 300px;
+height: 70px;
+top: 415px;
+left: 560px;
+border-radius: 12px;
+background-color: #EAB308;
+margin-top: 20px;
+}
+
+#hard {
+width: 300px;
+height: 70px;
+top: 415px;
+left: 560px;
+border-radius: 12px;
+background-color: #EF4444;
+margin-top: 20px;
+}
+
+/*.naslov {
+    margin-left: 500px;
+}*/
+
+#divica {
+    /*margin-left: 590px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 80px;
+}
+
+#easy{
+width: 200x;
+height: 60px;
+top: 653px;
+left: 693px;
+color: #FFFFFF;
+font-family: Sanchez;
+font-size: 24px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+#medium{
+width: 200x;
+height: 60px;
+top: 653px;
+left: 693px;
+color: #FFFFFF;
+font-family: Sanchez;
+font-size: 24px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center; 
+}
+
+#hard{
+width: 200x;
+height: 60px;
+top: 653px;
+left: 693px;
+color: #FFFFFF;
+font-family: Sanchez;
+font-size: 24px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.button {
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    top: 166px;
+    left: 670px;
+    /*margin-left: 600px;*/
+  }
+
+  
+  .polje input[type="text"] {
+    width: 600px;
+    height: 150px;
+    border-radius: 12px;
+    border: 1px;
+    background: linear-gradient(0deg, #D4D4D4),
+    linear-gradient(0deg, #FFFFFF);
+    border: 1px solid #D4D4D4;
+    /*margin-left: 450px;*/
+  }
+
+#Timer {
+    width: 160px;
+    height: 80px;
+    top: 482px;
+    left: 640px;
+    border-radius: 12px;
+    border: 1px;    
+    background: linear-gradient(0deg, #D4D4D4, #D4D4D4),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #D4D4D4;
+    /*margin-left: 570px;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.container{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+#par{
+  font-size: 18px;
+}
+.tacno{
+  color: #22C55E;
+}
+.netacno{
+  color: #EF4444;
+  text-decoration: none;
+}
+.ispravljeno{
+  color: orange;
+  text-decoration: none;
+}
